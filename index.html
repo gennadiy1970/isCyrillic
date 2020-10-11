@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <title>Is a cyrillic letter present?</title>
+  </head>
+  <body class="bg-info">
+    <div class="container">
+      <div class="row">
+        <div class="col d-flex justify-content-center mt-5 ">
+          <div class="card p-3 shadow" style="width: 18rem">
+            <form class="form">
+              <div class="form-group text-center">
+                <label for="exampleFormControlTextarea1">Enter text here</label>
+                <textarea
+                  class="form-control shadow-sm"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  name="user-text"
+                ></textarea>
+                <button class="btn btn-primary my-5 shadow" type="submit">Submit</button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Result:</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <!-- <li class="list-group-item">
+                  <dl>
+                    <dt class="word"></dt>
+                    <dt class="letter"></dt>
+                  </dl>
+                </li> -->
+              </ul>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
