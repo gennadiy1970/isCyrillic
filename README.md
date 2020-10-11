@@ -5,7 +5,7 @@
 
 Cheking words:
 
-сat flat flаt
+сat let flу
 
 <img src="./img/example.png">
 
